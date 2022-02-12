@@ -3,7 +3,7 @@
 
 仓库里有一份Synaptics PS/2 TouchPad Interfacing Guide（可惜是英文的），非常适合用来学习ps/2协议和触摸板通讯。还有其他的资料若干。
 # ps2shebei
-&emsp;&emsp;ps/2协议设备端的库。本库作为ps/2的设备端使用，也就是模拟一个ps/2设备端和主机通讯。
+&emsp;&emsp;ps/2协议设备端的库。本库作为ps/2的设备端使用，也就是模拟一个ps/2设备端和主机通讯。主机端的库在我另一个[GitHub仓库](https://github.com/cike-567/arduino-ps2shebei "前往仓库")。
 
 &emsp;&emsp;限制:不处理奇偶校验错误。时序常数根据规范硬编码。数据穿输速率并不是很快，可能还有很大的优化空间。
 
